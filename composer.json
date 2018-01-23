@@ -1,0 +1,25 @@
+{
+    "name":             "diveshopx/content-auto-update-multi-room-socket",
+    "description":      " A multi user multi room web socket server which updates the content automatically by using socket in php ",
+    "keywords":         ["mysql", "content-auto-update", "socket", "php", "web socket", "ratchet", "send", "receive", "screen-update", "real-time-notification"],
+    "homepage":         "https://github.com/diveshopx/content-auto-update-multi-room-socket",
+    "time":             "2018-01-04",
+    "license":          "MIT",
+    "authors": [
+        {
+            "name":         "diveshopx",
+            "email":        "support@ds360.biz",
+            "homepage":     "https://github.com/diveshopx",
+            "role":         "Author"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "diveshopx\\MultiRoomSocket": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "cboden/ratchet": "0.3.*"
+    }
+}
